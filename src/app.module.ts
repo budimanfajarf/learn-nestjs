@@ -8,4 +8,8 @@ import { BookmarkModule } from './bookmark/bookmark.module';
   controllers: [],
   providers: [],
 })
-export class AppModule {}
+export class AppModule {
+  constructor() {
+    console.log('App module');
+  }
+}

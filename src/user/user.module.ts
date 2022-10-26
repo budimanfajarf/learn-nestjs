@@ -1,4 +1,8 @@
 import { Module } from '@nestjs/common';
 
 @Module({})
-export class UserModule {}
+export class UserModule {
+  constructor() {
+    console.log('User module');
+  }
+}
